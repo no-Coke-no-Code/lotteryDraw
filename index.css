@@ -1,0 +1,34 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    background: url("./img/back.jpg") no-repeat;
+    width: 650px;
+    height: 600px;
+    position: relative;
+}
+.container > .img_middle
+{
+    position: absolute;
+    top: 60px;
+    left: 116px;
+    /* transition: 3s ease; */
+}
+.container > .img_top
+{
+    position: absolute;
+    top: 155px;
+    left: 247px;
+}
+.container > .img_top:hover
+{
+    cursor: pointer;
+}
+.container > .img_topDisable:hover
+{
+    cursor: wait;
+}
